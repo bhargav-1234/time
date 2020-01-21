@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+var mytime = setInterval(myFunction);
+function myFunction(){
+  var d= new Date();
+  document.getElementById("txt").innerHTML = d.toLocaleTimeString();
+}
+</script>
+</head>
+<body>
+  
+<div id="txt"></div>
+
+</body>
+</html>
